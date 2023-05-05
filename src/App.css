@@ -52,7 +52,7 @@ body{
   justify-content: center;
   column-gap: 2rem;
   row-gap: 0.4rem;
-  position: relative;
+  position: relative !important;
   margin-bottom: 2rem;
 }
 
@@ -62,8 +62,8 @@ body{
   top: -15%;
   bottom: 0;
   margin: auto;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
   width: 100%;
   display: grid;
   place-content: center;
